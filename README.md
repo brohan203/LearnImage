@@ -1,7 +1,7 @@
 # LearnImage
 Tool for stain segmentation of dark-field immunohistochemistry images.
 
-This code was produced by Rohan Borkar in collaboration with Thierno Madjou Bah and Nabil Alkayed at the Oregon Health and Sciences University. This script runs on any 3-channel images and can recognize any combination of colors or channels so whether you have lots of channels and must detect different combinations, or single channel images this script can find percent coverage.
+This code was produced by Rohan Borkar in collaboration with Thierno Madjou Bah and Nabil Alkayed at the Oregon Health and Sciences University. This script uses Support Vector Machines to learn dark-field immunohistochemistry image data based on user input. It runs on any 3-channel images and can recognize any combination of colors and some level of texture. Whether you have multiple channels and must detect different combinations of them, or single channel images this script can be used to find percent coverage.
 
 The following example depicts an input file of neuronal staining and the result.
 
