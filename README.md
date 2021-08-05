@@ -12,7 +12,7 @@ The following example depicts an input file of neuronal staining and the result.
 <br>
 
 Instructions: 
-
+<br>
 There are two steps to using this code:
     1. Learning the images using machine learning
     2. Running the images using a trained model
@@ -23,6 +23,7 @@ For running images on a trained model, specify the "data_folder" variable to the
 
 
 Citation:
+<br>
 We request anyone who uses this code to kindly acknowledge the authors by citing the following paper of ours that will be submitted soon. A link to the paper will be provided after publication.
 
 Soluble epoxide hydrolase inhibition improves cognition in a mouse model of vascular cognitive impairment (Under preparation).
