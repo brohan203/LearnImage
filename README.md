@@ -1,7 +1,7 @@
 # LearnImage
 Tool for stain segmentation of dark-field immunohistochemistry images.
 
-This code was produced by Rohan Borkar in collaboration with Thierno Madjou Bah and Nabil Alkayed at the Oregon Health and Sciences University. This script uses Support Vector Machines to learn dark-field immunohistochemistry image data based on user input. It runs on any 3-channel images and can recognize any combination of colors and some level of texture. Whether you have multiple channels and must detect different combinations of them, or single channel images this script can be used to find percent coverage.
+This code was produced by Rohan Borkar in collaboration with Dr. Thierno Madjou Bah and Dr. Nabil Alkayed at the Oregon Health and Sciences University. This script uses Support Vector Machines to learn dark-field immunohistochemistry image data based on user input. It runs on any 3-channel images and can recognize any combination of colors and some level of texture. Whether you have multiple channels and must detect different combinations of them, or single channel images this script can be used to find percent coverage.
 
 The following example depicts an input file of neuronal staining and the result.
 
@@ -14,7 +14,9 @@ The following example depicts an input file of neuronal staining and the result.
 Instructions: 
 <br>
 There are two steps to using this code:
+<br>
     1. Learning the images using machine learning
+    <br>
     2. Running the images using a trained model
 
 For learning images, start out by setting the "training" variable equal to True, specifying the training image by changing the "training_image" to the appropriate file, and marker name. Then run the script within terminal or command prompt. The program will display two windows in succession. In the first window, select points that should be excluded from segmentation such as background and non-significant tissue. In the second window, select points that should be included for segmentation. The training data will be saved based on what marker name was specified. If you are using one marker for different training sets or runs, append a number or other indicator to the end each time you train.
